@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculadora</title>
+</head>
+<script src="index.js"></script>
+<link rel="stylesheet" href="index.css">
+<body>
+    <div class="calculator">
+        <img id="calc" src="calculadora.png" alt="calculadora">
+        <input type="text" id="display" readonly>
+        <div class="buttons" readOnly="true" dir="rtl">
+            <button onclick="addToDisplay('1')" id="um">1</button>
+            <button onclick="addToDisplay('2')" id="dois">2</button>
+            <button onclick="addToDisplay('3')" id="tres">3</button>
+            <button onclick="addToDisplay('+')" id="mais">+</button>
+            <button onclick="addToDisplay('4')" id="quatro">4</button>
+            <button onclick="addToDisplay('5')" id="cinco">5</button>
+            <button onclick="addToDisplay('6')" id="seis">6</button>
+            <button onclick="addToDisplay('-')" id="menos">-</button>
+            <button onclick="addToDisplay('7')" id="sete">7</button>
+            <button onclick="addToDisplay('8')" id="oito">8</button>
+            <button onclick="addToDisplay('9')" id="nove">9</button>
+            <button onclick="addToDisplay('*')" id="vezes">*</button>
+            <button onclick="addToDisplay('.')" id="virgula">.</button>
+            <button onclick="addToDisplay('0')" id="zero">0</button>
+            <button onclick="addToDisplay('00')" id="zeroo">00</button>
+            <button onclick="calculate()" id="igual">=</button>
+            <button onclick="addToDisplay('/')" id="divisao">/</button>
+            <button onclick="clearDisplay()"id="C">C</button>
+            <button onclick="desligar()" id="off">off</button>
+            <button onclick="ligar()" id="on">on</button>
+        </div>
+    </div>
+</body>
+</html>

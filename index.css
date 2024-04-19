@@ -1,0 +1,222 @@
+#calc{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 500px;
+}
+@keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+#display.blinking {
+    animation: blink 0.5s infinite;
+}
+
+#display{
+    top: 26%;
+    left: 44.7%;
+    position: absolute;
+    transform: translate(-26%, 44.7%);
+    font-weight: bold;
+    font-size: 35px;
+    text-align: left;
+    background-color: transparent;
+    height: 79px;
+    width: 393px;
+    border-radius: 30px;
+    border: none;
+}
+.buttons button{
+    border-radius: 10px;
+    background-color: transparent;
+    border: none;
+    color: transparent;
+
+}
+#divisao{
+    position: absolute;
+    top: 57.2%;
+    left: 55.2%;
+    transform: translate(55.2%, -57.2%);
+    height: 50px;
+    width: 60px;
+    
+}
+#igual{
+position: absolute;
+top: 70.5%;
+left: 59%;
+transform: translate(-70.5%, -59%);
+height: 50px;
+width: 60px;
+
+}
+#C{
+    position: absolute;
+    top: 51%;
+    left: 55.3%;
+    transform: translate(51%, -55.3%);
+    height: 50px;
+    width: 60px;
+
+}
+#off{
+position: absolute;
+top: 44.5%;
+left: 58.3%;
+transform: translate(-44.5%, -58.3%);
+width: 69px;
+height: 36px;
+border-radius: 15px;
+
+}
+#on{
+position: absolute;
+top: 44.3%;
+left: 40.8%;
+transform: translate(-44.3%, -40.8%);
+width: 69px;
+height: 36px;
+border-radius: 15px;
+
+
+}
+#menos{
+position: absolute;
+top: 64%;
+left: 58.8%;
+transform: translate(-64%, -58.8%);
+height: 50px;
+width: 60px;
+border-radius: 10px;
+
+}
+#mais{
+    position: absolute;
+top: 67%;
+left: 54.8%;
+transform: translate(-67%, -54.8%);
+width: 65px;
+height: 105px;
+
+}
+#vezes{
+    position: absolute;
+    top: 57.2%;
+    left: 51%;
+    transform: translate(51%, -57.2%);
+    height: 50px;
+    width: 60px;
+  
+}
+#virgula{
+    position: absolute;
+    top: 70.9%;
+    left: 49.9%;
+    transform: translate(-49.9%, -70.9%);
+    height: 50px;
+    width: 63px;
+
+}
+#zeroo{
+    position: absolute;
+    top: 70.9%;
+    left: 42.5%;
+    transform: translate(42.5%, -70.9%);
+    height: 50px;
+    width: 60px;
+ 
+}
+#zero{
+    position: absolute;
+    top: 70.9%;
+    left: 40.8%;
+    transform: translate(-40.8%, -70.9%);
+    height: 50px;
+    width: 60px;
+}
+#um {
+    position: absolute;
+    top: 64.3%;
+    left: 40.8%;
+    transform: translate(-40.8%, -64.3%);
+    height: 50px;
+    width: 60px;
+}
+
+#dois {
+    position: absolute;
+    top: 64.3%;
+    left: 45.1%;
+    transform: translate(-45.1%, -64.3%);
+    height: 50px;
+    width: 60px;
+}
+
+#tres {
+    position: absolute;
+    top: 64.3%;
+    left: 49.9%;
+    transform: translate(-49.9%, -64.3%);
+    height: 50px;
+    width: 60px;
+}
+
+#quatro {
+    position: absolute;
+    top: 57.2%;
+    left: 40.8%;
+    transform: translate(-40.8%, -57.2%);
+    height: 50px;
+    width: 64px;
+}
+
+
+#cinco {
+    position: absolute;
+    top: 57.2%;
+    left: 45.1%;
+    transform: translate(-45.1%, -57.2%);
+    height: 50px;
+    width: 60px;
+}
+
+#seis {
+    position: absolute;
+    top: 57.2%;
+    left: 49.9%;
+    transform: translate(-49.9%, -57.2%);
+    height: 50px;
+    width: 60px;
+}
+
+#sete {
+    position: absolute;
+    top: 47.8%;
+    left: 39.5%;
+    transform: translate(-39.5%, -47.8);
+    height: 50px;
+    width: 64px;
+}
+
+#oito {
+    position: absolute;
+    top: 50.8%;
+    left: 45.1%;
+    transform: translate(-45.1%, -50.8%);
+    height: 50px;
+    width: 60px;
+}
+
+#nove {
+    position: absolute;
+    top: 50.8%;
+    left: 49.9%;
+    transform: translate(-49.9%, -50.8%);
+    height: 50px;
+    width: 63px;
+}
