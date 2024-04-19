@@ -21,12 +21,6 @@ function ligar() {
     display.style.display = "block";
     clearDisplay();
     addToDisplay('0');
-
-    var button = document.getElementById("on");
-    button.classList.add("blinking"); // Adiciona a classe 'blinking' ao botão "ligar"
-    setTimeout(function() {
-        button.classList.remove("blinking"); // Remove a classe 'blinking' após 1 segundo
-    }, 1000);
 }
 
 function desligar() {
